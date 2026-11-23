@@ -3,7 +3,7 @@
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB.svg)](https://www.python.org/downloads/)
 [![Data Source: ILOSTAT](https://img.shields.io/badge/Data%20Source-ILO%20ILOSTAT-D92B2B.svg)](https://ilostat.ilo.org/data/)
 [![Target Journal: IJSDP (Scopus Q3)](https://img.shields.io/badge/Target%20Journal-IJSDP%20(IIETA%20%7C%20Scopus%20Q3)-1B7F5C.svg)](https://www.iieta.org/Journals/IJSDP)
-[![Power BI](https://img.shields.io/badge/BI%20Tool-Power%20BI%20Desktop-F2C811.svg)](powerbi/Dashboard_V2.pbix)
+[![Power BI](https://img.shields.io/badge/BI%20Tool-Power%20BI%20Desktop-F2C811.svg)](powerbi/04_Proyecto_Visualizacion_Grupo01.pbix)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ---
@@ -16,11 +16,11 @@ This repository hosts the complete, reproducible data pipeline, validation noteb
 > **Título (ES):** *La generación que espera: análisis visual del desempleo juvenil, la exclusión NEET por género y territorio, la informalidad y la pobreza laboral en América Latina*  
 > **Institution:** Faculty of Engineering, Universidad San Ignacio de Loyola (USIL), Lima, Peru  
 > **Course:** Data Visualization (*Visualización de Datos*), 2026-02  
-> **Authors:** Juan Antonio Coronado Palacios\*, Lucero Milagros Cubas Quispe, Carlos Martin Quispe Bartolo, Maria Sofia Solari Hipólito  
+> **Authors:** Juan Antonio Coronado Palacios\* ([ORCID: 0009-0008-3541-3661](https://orcid.org/0009-0008-3541-3661)), Lucero Milagros Cubas Quispe ([ORCID: 0009-0007-1884-9749](https://orcid.org/0009-0007-1884-9749)), Carlos Martin Quispe Bartolo ([ORCID: 0009-0007-3868-753X](https://orcid.org/0009-0007-3868-753X)), Maria Sofia Solari Hipólito ([ORCID: 0009-0006-3510-2084](https://orcid.org/0009-0006-3510-2084))  
 > **Academic Supervision:** Dr. Alfredo Daza Vergaray (`alfredo.daza@usil.pe` | ORCID: [0000-0002-2259-1070](https://orcid.org/0000-0002-2259-1070))  
 > **Target Journal:** *International Journal of Sustainable Development and Planning (IJSDP)* — IIETA | ISSN: `1743-7601` / e-ISSN: `1743-761X` | **Scopus Q3** (SJR 2025: `0.312`, *Geography, Planning and Development* — [SCImago Profile](https://www.scimagojr.com/journalsearch.php?q=5200153101&tip=sid))
 
-Starting from official ILOSTAT records (`23,891` master rows covering `2010–2026`), the analytical model strictly delimits **20 sovereign Latin American countries** (excluding the regional aggregate `X21`) over the **2015–2025** period (**15,305 validated observations**), preserving missing survey values without artificial imputation and unifying **four complementary dashboards** inside a single Power BI report (`powerbi/Dashboard_V2.pbix`).
+Starting from official ILOSTAT records (`23,891` master rows covering `2010–2026`), the analytical model strictly delimits **20 sovereign Latin American countries** (excluding the regional aggregate `X21`) over the **2015–2025** period (**15,305 validated observations**), preserving missing survey values without artificial imputation and unifying **four complementary dashboards** inside a single Power BI report (`powerbi/04_Proyecto_Visualizacion_Grupo01.pbix`).
 
 ---
 
@@ -37,7 +37,7 @@ youth-unemployment-latam-dataviz/
 │   ├── 01_ETL_Limpieza_Unificacion_y_EDA.ipynb       # ETL pipeline: data/raw/ -> data/processed/ + profiling
 │   └── 02_Auditoria_y_Validacion_2015_2025_DAX.ipynb # Read-only audit: 14 automated CSV vs. DAX checks (error = 0.00)
 ├── powerbi/
-│   ├── Dashboard_V2.pbix                             # Integrated 4-page Power BI report (12 charts, 16 KPIs, TopoJSON)
+│   ├── 04_Proyecto_Visualizacion_Grupo01.pbix                             # Integrated 4-page Power BI report (12 charts, 16 KPIs, TopoJSON)
 │   └── figures/                                      # High-resolution exports of the 4 official dashboard pages
 │       ├── Figura1_01_Desempleo.png
 │       ├── Figura2_02_Genero_NiNi.png
@@ -69,7 +69,7 @@ All summary rates below are **unweighted arithmetic means** across eligible Lati
 
 ---
 
-## Visual Overview of the Four Integrated Dashboards (`Dashboard_V2.pbix`)
+## Visual Overview of the Four Integrated Dashboards (`04_Proyecto_Visualizacion_Grupo01.pbix`)
 
 | Dashboard 1: `01 Desempleo` | Dashboard 2: `02 Género NiNi` |
 | :---: | :---: |
@@ -93,7 +93,7 @@ uv run --with jupyter --with pandas --with openpyxl jupyter notebook notebooks/0
 uv run --with jupyter --with pandas jupyter notebook notebooks/02_Auditoria_y_Validacion_2015_2025_DAX.ipynb
 ```
 
-To inspect the interactive dashboards, open [`powerbi/Dashboard_V2.pbix`](powerbi/Dashboard_V2.pbix) in **Microsoft Power BI Desktop**.
+To inspect the interactive dashboards, open [`powerbi/04_Proyecto_Visualizacion_Grupo01.pbix`](powerbi/04_Proyecto_Visualizacion_Grupo01.pbix) in **Microsoft Power BI Desktop**.
 
 ---
 

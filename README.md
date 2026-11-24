@@ -16,7 +16,7 @@ This repository hosts the complete, reproducible data pipeline, validation noteb
 > **Título (ES):** *La generación que espera: análisis visual del desempleo juvenil, la exclusión NEET por género y territorio, la informalidad y la pobreza laboral en América Latina*  
 > **Institution:** Faculty of Engineering, Universidad San Ignacio de Loyola (USIL), Lima, Peru  
 > **Course:** Data Visualization (*Visualización de Datos*), 2026-02  
-> **Authors:** Juan Antonio Coronado Palacios ([ORCID: 0009-0008-3541-3661](https://orcid.org/0009-0008-3541-3661)), Lucero Milagros Cubas Quispe ([ORCID: 0009-0007-1884-9749](https://orcid.org/0009-0007-1884-9749)), Carlos Martin Quispe Bartolo ([ORCID: 0009-0007-3868-753X](https://orcid.org/0009-0007-3868-753X)), Maria Sofia Solari Hipólito ([ORCID: 0009-0006-3510-2084](https://orcid.org/0009-0006-3510-2084)), Alfredo Daza Vergaray\* ([ORCID: 0000-0002-2259-1070](https://orcid.org/0000-0002-2259-1070))  
+> **Authors:** Alfredo Daza Vergaray\* ([ORCID: 0000-0002-2259-1070](https://orcid.org/0000-0002-2259-1070)), Juan Antonio Coronado Palacios ([ORCID: 0009-0008-3541-3661](https://orcid.org/0009-0008-3541-3661)), Lucero Milagros Cubas Quispe ([ORCID: 0009-0007-1884-9749](https://orcid.org/0009-0007-1884-9749)), Carlos Martin Quispe Bartolo ([ORCID: 0009-0007-3868-753X](https://orcid.org/0009-0007-3868-753X)), Maria Sofia Solari Hipólito ([ORCID: 0009-0006-3510-2084](https://orcid.org/0009-0006-3510-2084))  
 > **Corresponding Author:** Alfredo Daza Vergaray\* (`alfredo.daza@usil.pe` | [ORCID: 0000-0002-2259-1070](https://orcid.org/0000-0002-2259-1070))  
 > **Target Journal:** *International Journal of Sustainable Development and Planning (IJSDP)* — IIETA | ISSN: `1743-7601` / e-ISSN: `1743-761X` | **Scopus Q3** (SJR 2025: `0.312`, *Geography, Planning and Development* — [SCImago Profile](https://www.scimagojr.com/journalsearch.php?q=5200153101&tip=sid))
 
@@ -100,9 +100,9 @@ To inspect the interactive dashboards, open [`powerbi/04_Proyecto_Visualizacion_
 ## Citation & License
 
 ```bibtex
-@article{coronado2026waiting,
+@article{daza2026waiting,
   title={The Waiting Generation: Visual Analysis of Youth Unemployment, Gender and Territorial NEET Exclusion, Informality, and Working Poverty in Latin America},
-  author={Coronado Palacios, Juan Antonio and Cubas Quispe, Lucero Milagros and Quispe Bartolo, Carlos Martin and Solari Hip{'o}lito, Maria Sofia},
+  author={Daza Vergaray, Alfredo and Coronado Palacios, Juan Antonio and Cubas Quispe, Lucero Milagros and Quispe Bartolo, Carlos Martin and Solari Hip{\'o}lito, Maria Sofia},
   journal={International Journal of Sustainable Development and Planning (Prepared for Submission)},
   year={2026},
   publisher={IIETA}
